@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD Application</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body style="background-color: rgb(59, 59, 174); font-family: 'Courier New'">
+    <div class="container">
+      <div class="form">
+        <center>
+          <h1 style="display: flex; width: 300px; color: rgb(159, 162, 159)">
+            CRUD Application
+          </h1>
+        </center>
+        <form id="recordForm">
+          <input type="text" id="name" placeholder="Name" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <input type="hidden" id="recordId" />
+          <center>
+            <button type="submit" id="submitButton">Submit</button>
+          </center>
+        </form>
+      </div>
+      <div class="divContainer" id="recordsList"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

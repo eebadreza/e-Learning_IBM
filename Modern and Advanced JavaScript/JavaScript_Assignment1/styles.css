@@ -1,0 +1,48 @@
+.container {
+  max-width: 800px;
+  margin: 5% auto;
+  background-color: rgb(68, 120, 103);
+}
+
+.divContainer {
+  display: table;
+  justify-content: center;
+}
+
+.eleContainer {
+  display: flex;
+  width: 780px;
+  margin: 10px;
+  background-color: rgb(202, 222, 228);
+  justify-content: center;
+}
+
+.item {
+  display: table-cell;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.form {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  display: block;
+  margin: 15px auto;
+}
+
+p {
+  font-weight: 600;
+}
+
+.but {
+  /* justify-content: space-between; */
+  margin-top: 25px;
+}
+
+#recordId {
+  display: none; /* Hide the hidden field */
+}
